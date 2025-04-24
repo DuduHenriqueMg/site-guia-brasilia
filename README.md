@@ -47,11 +47,9 @@ A utilização de tags semânticas no HTML é essencial para a estrutura, acessi
 - Estrutura clara e hierarquizada com títulos e subtítulos para facilitar leitura e navegação.
 - Responsividade e compatibilidade móvel através de meta tags específicas.
 
-Este documento oferece uma visão geral das principais funcionalidades e estruturas utilizadas neste projeto HTML, facilitando a compreensão e continuidade do desenvolvimento.
-
 ## 3. Estrutura e Organização do CSS
 
-O CSS foi organizado conforme as classes definidas no HTML, permitindo a estilização de elementos comuns entre as páginas e facilitando a manutenção e clareza do código. IDs e Classes especificadas permitem uma estilização precisa e flexível.
+O CSS foi organizado conforme as classes definidas no HTML, permitindo a estilização de elementos comuns entre as páginas e facilitando a manutenção do código. IDs e Classes especificadas permitem uma estilização flexível.
 
 ### Principais Conceitos Utilizados no CSS
 
@@ -62,7 +60,7 @@ O CSS foi organizado conforme as classes definidas no HTML, permitindo a estiliz
 
 ## 4. Responsividade e Acessibilidade
 
-## Responsividade 
+### Responsividade
 
 As propiedades CSS (Grid,FlexBox e rem) utilizadas no projeto proporcionam uma boa responsividade adaptando o site para diferentes telas. Também foi utilizado media queries para garantir que o conteúdo seja bem apresentado em diferentes dispositivos, adotando breakpoints específicos:
 
@@ -72,7 +70,7 @@ As propiedades CSS (Grid,FlexBox e rem) utilizadas no projeto proporcionam uma b
 
 O Grid utilizado com `auto-fit` e `minmax()` proporciona uma grande flexibilidade ajustando automaticamente a quantidade de colunas conforme o espaço disponível.
 
-## Acessibilidade
+### Acessibilidade
 
 Elementos importantes de acessibilidade foram utilizados:
 
