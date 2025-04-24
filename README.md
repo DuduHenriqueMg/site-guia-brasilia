@@ -1,12 +1,14 @@
 # Site Guia Turístico de Brasília
 
+- **Link:** https://duduhenriquemg.github.io/site-guia-brasilia/hoteis.html
+
 ## 1. Introdução
 
 Este site foi desenvolvido durante a disciplina de Desenvolvimento Web, com o objetivo de praticar o conteúdo de HTML e CSS aprendido durante as aulas.  
 
 ## 2. Estrutura Semântica, Conceitos e Tags HTML Aplicadas no Projeto
 
-A utilização de tags semânticas no HTML é essencial para a clareza da estrutura, acessibilidade e otimização para mecanismos de busca. Nesse projeto foram utilizadas as tags `<header>`, `<nav>`, `<main>`, `<section>` e `<footer>`, que definem claramente as diferentes áreas e conteúdos do site.
+A utilização de tags semânticas no HTML é essencial para a estrutura, acessibilidade e otimização para mecanismos de busca. Nesse projeto foram utilizadas as tags `<header>`, `<nav>`, `<main>`, `<section>` e `<footer>`, que definem claramente as diferentes áreas e conteúdos do site.
 
 ### Cabeçalho e Navegação
 - `<header>`: Representa o cabeçalho da página.
@@ -53,10 +55,10 @@ O CSS foi organizado conforme as classes definidas no HTML, permitindo a estiliz
 
 ### Principais Conceitos Utilizados no CSS
 
-- **Flexbox**: Utilizado na navbar para alinhar e distribuir elementos com flexibilidade.
-- **Grid**: Utilizado nos cards e no formulário para uma distribuição dinâmica e responsiva dos elementos.
-- **Unidades Relativas (rem)**: Foram utilzadas unidades relativas (`rem`) para facilitar escalabilidade, mantendo a consistência de tamanhos em diferentes resoluções e aumentando a acessibilidade para usuários.
-- **Transições e Animações**: Efeitos suaves implementados nos links, cards e botões para melhorar a interação nas páginas.
+- **Flexbox:** Utilizado na navbar para alinhar e distribuir elementos com flexibilidade.
+- **Grid:** Utilizado nos cards e no formulário para uma distribuição dinâmica e responsiva dos elementos.
+- **Unidades Relativas (rem):** Foram utilzadas unidades relativas (`rem`) para facilitar escalabilidade, mantendo a consistência de tamanhos em diferentes resoluções e aumentando a acessibilidade para usuários.
+- **Transições e Animações:** Efeitos suaves implementados nos links, cards e botões para melhorar a interação nas páginas.
 
 ## 4. Responsividade e Acessibilidade
 
@@ -68,7 +70,7 @@ As propiedades CSS (Grid,FlexBox e rem) utilizadas no projeto proporcionam uma b
 - **Janelas Entre 990px e 700px**: Ajuste dos cards para duas colunas, para telas menores.
 - **Janelas Menores que 700px**: Layout com coluna única, para telas de dispositivos movéis. A navbar também muda para um layout vertical, se adptando a tela.
 
-A propriedade CSS Grid com `auto-fit` e `minmax()` proporciona grande flexibilidade ao ajustar automaticamente a quantidade de colunas conforme o espaço disponível.
+O Grid utilizado com `auto-fit` e `minmax()` proporciona uma grande flexibilidade ajustando automaticamente a quantidade de colunas conforme o espaço disponível.
 
 ## Acessibilidade
 
