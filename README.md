@@ -32,7 +32,7 @@ A utilização de tags semânticas no HTML é essencial para a estrutura, acessi
 - `<form>`: Representa um formulário para o usuário inserir dados.
 - `<label>`: Textos descritivos descrevendo os campos do formulário.
 - `<input>`: Elemento para entrada de texto, números e outros tipos de dados.
-- `<select>` e `<option>`: Criam menus dropdown com seleção de opções.
+- `<select>` e `<option>`: Elemento para selecionar opções.
 - `<button type="submit">`: Botão para enviar o formulário.
 
 ### Classes e IDs
@@ -44,8 +44,7 @@ A utilização de tags semânticas no HTML é essencial para a estrutura, acessi
 
 ### Boas Práticas Utillizadas
 - Uso de tags semânticas (`header`, `nav`, `main`, `section`, `footer`) para melhorar a acessibilidade e otimização para mecanismos de busca (SEO).
-- Estrutura clara e hierarquizada com títulos e subtítulos para facilitar leitura e navegação.
-- Responsividade e compatibilidade móvel através de meta tags específicas.
+- Estrutura clara com títulos e subtítulos para facilitar leitura e navegação.
 
 ## 3. Estrutura e Organização do CSS
 
@@ -76,7 +75,7 @@ Elementos importantes de acessibilidade foram utilizados:
 
 - Textos alternativos (`alt`) para todas as imagens, facilitando a utilização de leitores de tela.
 - Contraste adequado entre texto e fundo.
-- Uso consistente de tamanhos de fonte e espaçamento (`rem`) que permitem melhor leitura e interação para usuários com ajustes específicos no navegador ou diferentes telas.
+- Uso de tamanhos de fonte e espaçamento (`rem`) que permitem melhor leitura e interação para usuários com ajustes específicos no navegador ou diferentes telas.
 
 Esses elementos de acessibilidade visam garantir que o site seja acessível e fácil de usar para todos os públicos.
 
