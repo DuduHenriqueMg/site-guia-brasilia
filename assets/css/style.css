@@ -1,30 +1,186 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    color: white;
+    position: relative;
+}
+
+.logo {
+    flex: 1;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.nav-links {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    color: #979797;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #d5dce6;
+    color: rgb(0, 0, 0);
+}
+
+
+#imagem-inicial {
+    background: url("../images/pexels_museu.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+#cards-pontos {
+    text-align: center;
+}
+
+.texto {
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 2rem;
+    text-align: center; 
+    color: black; 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.texto h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.texto p {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.aventura {
+    padding: 3rem 1rem;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+.titulo-aventura {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.cards-aventura {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.card-aventura {
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.bg-img {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s ease;
+    z-index: 1;
+}
+
+.card-aventura:hover .bg-img {
+    transform: scale(1.1); 
+}
+
+.conteudo-card {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 1rem;
+    z-index: 2;
+    text-align: center;
+    backdrop-filter: blur(3px);
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.conteudo-card h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
+
+#card1-img{
+    background-image: url("../images/catedral_bsb.jpeg");
+}
+
+#card2-img{
+    background-image: url("../images/royal_hotel.jpg");
+}
+
+
+
 .container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1rem;
-    padding: 1rem;
-}
-
-
-@media (min-width: 600px) {
-    .container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (min-width: 900px) {
-   .container {
-        grid-template-columns: repeat(3, 1fr);
-    }
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    justify-items: center;
 }
 
 .card {
-    background: #fff;
-    border-radius: 8px;
-    width: 500px;
-    height: 500px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
     overflow: hidden;
+    width: 100%;
+
     display: flex;
     flex-direction: column;
     transition: transform 0.3s ease;
@@ -36,13 +192,48 @@
 
 .card img {
     width: 100%;
-    height: 400px;
+    height: 300px;
     object-fit: cover;
     display: block;
 }
 
-.card-body {
+.card-titulo {
     padding: 1rem;
-    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
 }
 
+
+
+@media (max-width: 992px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .navvbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        
+
+    }
+
+    .nav-links li {
+        display: block;
+    }
+}
