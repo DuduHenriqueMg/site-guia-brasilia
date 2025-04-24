@@ -4,15 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pontos Turísticos</title>
     <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+
+    <!-- Header e Barra de navegação -->
     <header>
         <nav class="navbar">
             <div class="logo">
-                <p>Guia de Brasília</p>
+                <a href="./index.html">
+                    <p>Guia de Brasília</p>
+                </a>
             </div>
             <div class="container-links">
                 <ul class="nav-links">
@@ -26,7 +35,7 @@
                         <a class="links-navbar" href="#">Pontos Turísticos</a>
                     </li>
                     <li class="">
-                        <a href="./index.html">Sobre</a>
+                        <a href="./index.html">Guias</a>
                     </li>
                     <li class="">
                         <a href="./index.html">Newsletter</a>
@@ -36,138 +45,66 @@
         </nav>
     </header>
 
-    <div class="titulo">
-        <h1>Melhores Pontos Turísticos de Brasília</h1>
-    </div>
-
+    <!-- Conteúdo Principal -->
     <main>
-        <section id="cards-pontos">
-            <div class="container">
-                <div class="card">
-                    <img src="./assets/images/catedral_destaque.jpg" class="img-fluid" class="card-img-top" alt="...">
-                    <h5 class="card-titulo">Catedral</h5>
+
+        <!-- Cards dos pontos turísticos -->
+        <section id="pontos-turisticos">
+            <div class="navegacao">
+                <div>
+                    <h1 class="titulo-navegacao">Melhores Pontos Turísticos de Brasília</h1>
                 </div>
 
-                <div class="card">
-                    <img src="./assets/images/palacio_itamaraty.jpg" class="img-fluid" class="card-img-top" alt="...">
-                    <h5 class="card-titulo">Palácio Itamaraty</h5>
-                </div>
+                <div class="container">
+                    <div class="card">
+                        <img src="./assets/images/catedral_destaque.jpg" class="img-fluid" class="card-img"
+                            alt="Catedral de Brasília">
+                        <h5 class="card-titulo">Catedral</h5>
+                    </div>
 
-                <div class="card">
-                    <img src="./assets/images/congresso.jpg" class="card-img-top" alt="...">
-                    <h5 class="card-titulo">Congresso</h5>
-                </div>
+                    <div class="card">
+                        <img src="./assets/images/palacio_itamaraty.jpg" class="img-fluid" class="card-img"
+                            alt="Palácio Itamaraty">
+                        <h5 class="card-titulo">Palácio Itamaraty</h5>
+                    </div>
 
-                <div class="card">
-                    <img src="./assets/images/memorial.jpg" class="card-img-top" alt="...">
-                    <h5 class="card-titulo">Memorial JK</h5>
-                </div>
+                    <div class="card">
+                        <img src="./assets/images/congresso.jpg" class="card-img" alt="Congresso Nacional">
+                        <h5 class="card-titulo">Congresso Nacional</h5>
+                    </div>
 
-                <div class="card">
-                    <img src="./assets/images/visao_torre.jpg" class="card-img-top" alt="...">
-                    <h5 class="card-titulo">Esplanada</h5>
-                </div>
+                    <div class="card">
+                        <img src="./assets/images/memorial.jpg" class="card-img" alt="Memorial JK">
+                        <h5 class="card-titulo">Memorial JK</h5>
+                    </div>
 
-                <div class="card">
-                    <img src="./assets/images/pontao_lago.jpg" class="card-img-top" alt="...">
+                    <div class="card">
+                        <img src="./assets/images/visao_torre.jpg" class="card-img" alt="Torre de TV">
+                        <h5 class="card-titulo">Esplanada e Torre de TV</h5>
+                    </div>
 
-                    <h5 class="card-titulo">Pontão do Lago</h5>
+                    <div class="card">
+                        <img src="./assets/images/pontao_lago.jpg" class="card-img" alt="Pontâo do Lago">
+                        <h5 class="card-titulo">Pontão do Lago</h5>
+                    </div>
 
+                    <div class="card">
+                        <img src="./assets/images/ponte.jpg" class="card-img" alt="Ponte JK">
+                        <h5 class="card-titulo">Ponte JK</h5>
+                    </div>
 
-                </div>
-
-                <div class="card">
-                    <img src="./assets/images/ponte.jpg" class="card-img-top" alt="...">
-
-                    <h5 class="card-titulo">Ponte JK</h5>
-
-
-                </div>
-
-                <div class="card">
-                    <img src="./assets/images/palacio_planalto.jpg" class="card-img-top" alt="...">
-
-                    <h5 class="card-titulo">Palácio do Planalto</h5>
-
+                    <div class="card">
+                        <img src="./assets/images/palacio_planalto.jpg" class="card-img" alt="Palácio do Planalto">
+                        <h5 class="card-titulo">Palácio do Planalto</h5>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/museu.jpg" class="card-img" alt="Museu Nacional">
+                        <h5 class="card-titulo">Museu Nacional</h5>
+                    </div>
                 </div>
             </div>
-        </section>
-
-        <section id="carrossel">
-
         </section>
     </main>
-
-    <footer id="footer">
-
-        <div class="titulo">
-            <h2>Se inscreva no blog para receber notícias de Brasília</h2>
-        </div>
-
-        <form class="formulario">
-            <div class="">
-                <label for="nome" class="label">Nome</label>
-                <input type="text" class="inputs" id="nome" value="" required>
-            </div>
-            <div class="">
-                <label for="sobrenome" class="label">Sobrenome</label>
-                <input type="text" class="inputs" id="sobrenome" value="" required>
-            </div>
-            <div class="">
-                <label for="cidade" class="label">Cidade</label>
-                <input type="text" class="inputs" id="cidade" required>
-            </div>
-
-            <div class="">
-                <label for="email" class="label">Email</label>
-                <input type="text" class="inputs" id="email" required>
-            </div>
-
-            <div class="">
-                <label for="telefone" class="label">Telefone</label>
-                <input type="text" class="inputs" id="telefone" required>
-            </div>
-
-            <div class="">
-                <label for="estado" class="label">Estado</label>
-                <select class="inputs" id="estado" required>
-                    <option selected disabled value="">Escolha...</option>
-                    <option>Acre</option>
-                    <option>Alagoas</option>
-                    <option>Amapá</option>
-                    <option>Amazonas</option>
-                    <option>Bahia</option>
-                    <option>Ceará</option>
-                    <option>Distrito Federal</option>
-                    <option>Espírito Santo</option>
-                    <option>Goiás</option>
-                    <option>Maranhão</option>
-                    <option>Mato Grosso</option>
-                    <option>Mato Grosso do Sul</option>
-                    <option>Minas Gerais</option>
-                    <option>Pará</option>
-                    <option>Paraíba</option>
-                    <option>Paraná</option>
-                    <option>Pernambuco</option>
-                    <option>Piauí</option>
-                    <option>Rio de Janeiro</option>
-                    <option>Rio Grande do Norte</option>
-                    <option>Rio Grande do Sul</option>
-                    <option>Rondônia</option>
-                    <option>Roraima</option>
-                    <option>Santa Catarina</option>
-                    <option>São Paulo</option>
-                    <option>Sergipe</option>
-                    <option>Tocantins</option>
-                </select>
-            </div>
-
-            <div class="col-12">
-                <button id="btnFinal" class="botao" type="submit">Enviar</button>
-            </div>
-        </form>
-    </footer>
-
 </body>
 
 </html>

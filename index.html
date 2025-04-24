@@ -4,15 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+
+    <!-- Header e Barra de navegação -->
     <header>
         <nav class="navbar">
             <div class="logo">
-                <p>Guia de Brasília</p>
+                <a href="#">
+                    <p>Guia de Brasília</p>
+                </a>
             </div>
             <div class="container-links">
                 <ul class="nav-links">
@@ -26,102 +35,109 @@
                         <a class="links-navbar" href="./hoteis.html">Pontos Turísticos</a>
                     </li>
                     <li class="">
-                        <a href="./index.html">Sobre</a>
+                        <a href="#guias">Guias</a>
                     </li>
                     <li class="">
-                        <a href="./index.html">Newsletter</a>
+                        <a href="#footer">Newsletter</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
+    
+    <!-- Imagem Inicial de Fundo -->
     <div id="imagem-inicial"></div>
+
+    <!-- Conteúdo Principal -->
     <main>
-        <section class="texto">
-            <h1>Venha conhecer Brasília!</h1>
-            <p>
-                Brasília não é só a capital do Brasil — é um verdadeiro monumento à ousadia. Uma cidade que nasceu de um
-                risco no papel, de uma visão futurista e de uma promessa: unir o país em um coração pulsante no Planalto
-                Central. Aqui, cada avenida, praça e edifício carrega propósito. Cada traço do arquiteto Oscar Niemeyer
-                e
-                cada espaço urbanístico de Lúcio Costa nos lembram que Brasília é arte viva.
 
-                De longe, suas construções parecem naves espaciais pousadas no cerrado. De perto, revelam curvas,
-                ângulos e
-                detalhes que contam histórias do passado e projetam sonhos para o futuro. A Catedral Metropolitana, o
-                Congresso Nacional, o Palácio da Alvorada — ícones que surpreendem mesmo quem já viu tudo.
+        <!-- Seção do texto sobre Brasília -->
+        <section id="texto">
+            <div class="texto">
+                <h1 class="titulo">Venha conhecer Brasília!</h1>
+                <p>
+                    Brasília não é só a capital do Brasil — é um verdadeiro monumento à ousadia. Uma cidade que nasceu
+                    de um
+                    risco no papel, de uma visão futurista e de uma promessa: unir o país em um coração pulsante no
+                    Planalto
+                    Central. Aqui, cada avenida, praça e edifício carrega propósito. Cada traço do arquiteto Oscar
+                    Niemeyer
+                    e
+                    cada espaço urbanístico de Lúcio Costa nos lembram que Brasília é arte viva.
 
-                Mas Brasília é muito mais do que concreto e simetria. É o pôr do sol refletido no espelho d'água do Eixo
-                Monumental. É a cultura pulsando na Feira da Torre, nos sabores da rua, nos festivais ao ar livre e na
-                diversidade de quem escolheu viver aqui.
+                    De longe, suas construções parecem naves espaciais pousadas no cerrado. De perto, revelam curvas,
+                    ângulos e
+                    detalhes que contam histórias do passado e projetam sonhos para o futuro. A Catedral Metropolitana,
+                    o
+                    Congresso Nacional, o Palácio da Alvorada — ícones que surpreendem mesmo quem já viu tudo.
 
-                É uma cidade feita para se explorar com calma — a pé, de bike ou de asa-delta. Com mirantes, trilhas e
-                parques escondidos entre o urbanismo, Brasília é um convite à contemplação.
+                    Mas Brasília é muito mais do que concreto e simetria. É o pôr do sol refletido no espelho d'água do
+                    Eixo
+                    Monumental. É a cultura pulsando na Feira da Torre, nos sabores da rua, nos festivais ao ar livre e
+                    na
+                    diversidade de quem escolheu viver aqui.
 
-                Venha conhecer Brasília com outros olhos — os da curiosidade, da descoberta e da emoção. Deixe que a
-                capital
-                do Brasil surpreenda você.
-            </p>
-        </section>
+                    É uma cidade feita para se explorar com calma — a pé ou de bike. Com mirantes, trilhas
+                    e
+                    parques escondidos entre o urbanismo, Brasília é um convite à contemplação.
 
-        <section class="navegacao">
-            <h2 class="titulo-aventura">Guias Turísticos</h2>
-            <div class="cards-aventura">
-
-                <a class="card-link" href="./pontos_turisticos.html">
-                    <div class="card-aventura">
-                        <div class="bg-img" id="card1-img"></div>
-                        <div class="conteudo-card">
-                            <h3>Pontos Turísticos</h3>
-                        </div>
-                    </div>
-                </a>
-                
-                <a class="card-link" href="./hoteis.html">
-                    <div class="card-aventura">
-                        <div class="bg-img" id="card2-img"></div>
-                        <div class="conteudo-card">
-                            <h3>Hotéis</h3>
-                        </div>
-                    </div>
-                </a>
-                
+                    Venha conhecer Brasília com outros olhos — os da curiosidade, da descoberta e da emoção. Deixe que a
+                    capital
+                    do Brasil surpreenda você.
+                </p>
             </div>
         </section>
 
+        <!-- Seção dos cards de navegação para as outras páginas -->
+        <section id="guias">
+            <div class="navegacao">
+                <h2 class="titulo-navegacao">Guias Turísticos</h2>
+                <div class="cards-navegacao">
+                    <a class="card-link" href="./pontos_turisticos.html">
+                        <div class="card-navegacao">
+                            <div class="bg-img" id="card1-img"></div>
+                            <div class="conteudo-card">
+                                <h3>Pontos Turísticos</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="card-link" href="./hoteis.html">
+                        <div class="card-navegacao">
+                            <div class="bg-img" id="card2-img"></div>
+                            <div class="conteudo-card">
+                                <h3>Hotéis</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </section>
     </main>
 
+    <!-- Rodapé da página com o form de inscrição na Newsletter -->
     <footer id="footer">
-
         <div class="titulo">
-            <h2>Se inscreva no blog para receber notícias de Brasília</h2>
+            <h2>Se inscreva na Newsletter</h2>
         </div>
 
-        <form class="formulario">
-            <div class="">
+        <form action="#" class="formulario">
+            <div class="input">
                 <label for="nome" class="label">Nome</label>
                 <input type="text" class="inputs" id="nome" value="" required>
             </div>
-            <div class="">
-                <label for="sobrenome" class="label">Sobrenome</label>
-                <input type="text" class="inputs" id="sobrenome" value="" required>
-            </div>
-            <div class="">
-                <label for="cidade" class="label">Cidade</label>
-                <input type="text" class="inputs" id="cidade" required>
-            </div>
 
-            <div class="">
+            <div class="input">
                 <label for="email" class="label">Email</label>
                 <input type="text" class="inputs" id="email" required>
             </div>
 
-            <div class="">
+            <div class="input">
                 <label for="telefone" class="label">Telefone</label>
-                <input type="text" class="inputs" id="telefone" required>
+                <input type="number" class="inputs" id="telefone" required>
             </div>
 
-            <div class="">
+            <div class="input">
                 <label for="estado" class="label">Estado</label>
                 <select class="inputs" id="estado" required>
                     <option selected disabled value="">Escolha...</option>
@@ -154,13 +170,11 @@
                     <option>Tocantins</option>
                 </select>
             </div>
-
-            <div class="col-12">
-                <button id="btnFinal" class="botao" type="submit">Enviar</button>
+            <div class="botao">
+                <button type="submit">Enviar</button>
             </div>
         </form>
     </footer>
-
 </body>
 
 </html>

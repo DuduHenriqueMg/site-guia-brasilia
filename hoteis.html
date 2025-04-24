@@ -4,15 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hotéis</title>
     <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+
+    <!-- Header e Barra de navegação -->
     <header>
         <nav class="navbar">
             <div class="logo">
-                <p>Guia de Brasília</p>
+                <a href="./index.html">
+                    <p>Guia de Brasília</p>
+                </a>
             </div>
             <div class="container-links">
                 <ul class="nav-links">
@@ -26,7 +35,7 @@
                         <a class="links-navbar" href="./pontos_turisticos.html">Pontos Turísticos</a>
                     </li>
                     <li class="">
-                        <a href="./index.html">Sobre</a>
+                        <a href="./index.html">Guias</a>
                     </li>
                     <li class="">
                         <a href="./index.html">Newsletter</a>
@@ -36,78 +45,35 @@
         </nav>
     </header>
 
-    <div class="titulo">
-        <h1>Melhores Hotéis de Brasília</h1>
-    </div>
-
+    <!-- Conteúdo Principal -->s
     <main>
+
+        <!-- Cards dos Hotéis -->
         <section id="cards">
-            
-            <div class="container">
-                <div class="card">
-                    <img src="./assets/images/royal_hotel.jpg" class="img-fluid" class="card-img-top" alt="Royal Hotel">
-                    <div class="card-descricao">
+            <div class="navegacao">
+                <div>
+                    <h1 class="titulo-navegacao">Melhores Hotéis de Brasília</h1>
+                </div>
+                <div class="container">
+                    <div class="card">
+                        <img src="./assets/images/royal_hotel.jpg" class="img-fluid" class="card-img-top"
+                            alt="Royal Hotel">
                         <h5 class="card-titulo">Royal Tulip</h5>
                     </div>
-                </div>
 
-                <div class="card">
-                    <img src="./assets/images/grand_mercure.jpg" class="img-fluid" class="card-img-top" alt="Grand Mercure Hotel">
-                    <div class="card-descricao">
+                    <div class="card">
+                        <img src="./assets/images/grand_mercure.jpg" class="img-fluid" class="card-img-top"
+                            alt="Grand Mercure Hotel">
                         <h5 class="card-titulo">Grand Mercure</h5>
                     </div>
 
-                </div>
-
-                <div class="card">
-                    <img src="./assets/images/congresso.jpg" class="card-img-top" alt="...">
-                    <div class="card-descricao">
-                        <h5 class="card-titulo">Congresso</h5>
-                    </div>
-
-                </div>
-
-                <div class="card">
-                    <img src="./assets/images/memorial.jpg" class="card-img-top" alt="...">
-                    <div class="card-descricao">
-                        <h5 class="card-titulo">Memorial JK</h5>
-                    </div>
-
-                </div>
-
-                <div class="card">
-                    <img src="./assets/images/visao_torre.jpg" class="card-img-top" alt="...">
-                    <div class="card-descricao">
-                        <h5 class="card-titulo">Esplanada</h5>
-                    </div>
-
-                </div>
-
-                <div class="card">
-                    <img src="./assets/images/pontao_lago.jpg" class="card-img-top" alt="...">
-                    <div class="card-descricao">
-                        <h5 class="card-titulo">Pontão do Lago</h5>
-                    </div>
-
-                </div>
-
-                <div class="card">
-                    <img src="./assets/images/ponte.jpg" class="card-img-top" alt="...">
-                    <div class="card-descricao">
-                        <h5 class="card-titulo">Ponte JK</h5>
-                    </div>
-
-                </div>
-
-                <div class="card">
-                    <img src="./assets/images/palacio_planalto.jpg" class="card-img-top" alt="...">
-                    <div class="card-descricao">
-                        <h5 class="card-titulo">Palácio do Planalto</h5>
+                    <div class="card">
+                        <img src="./assets/images/windsor_plaza.jpg" class="card-img-top" alt="Windsor Plaza Hotel">
+                        <h5 class="card-titulo">Windsor Plaza Hotel</h5>
                     </div>
                 </div>
             </div>
         </section>
-
     </main>
 </body>
 
