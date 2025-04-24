@@ -1,6 +1,6 @@
 # Site Guia Turístico de Brasília
 
-- **Link:** https://duduhenriquemg.github.io/site-guia-brasilia/hoteis.html
+**Link:** https://duduhenriquemg.github.io/site-guia-brasilia/index.html
 
 ## 1. Introdução
 
